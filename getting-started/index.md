@@ -1,7 +1,18 @@
-# Getting Started with S3DF
+#Welcome Home: A Beginner’s Guide to Using S3DF
 
-The S3DF (Shared Science Data Facility) is a collaborative platform for accessing and managing scientific data. Follow the steps below to get started.
+Welcome to the SLAC Shared Scientific Data Facility (S3DF)! This guide is designed for all users—especially those new to high-performance computing. Whether you're just getting started or need a quick refresher, this guide will walk you through the essentials:
 
+How to log in to the system (via SSH and OnDemand)
+
+Navigating the file system and understanding storage spaces
+
+Accessing available applications and environments
+
+Preparing and submitting a SLURM job script
+
+Viewing two practical login examples to help you get started quickly
+
+Let’s dive in and make your first S3DF experience smooth and productive!
 ## Table of Contents
 - [Logging on to S3DF](logging-on-to-s3df.md)
 - [Clusters & Repos](clusters-and-repos.md)
