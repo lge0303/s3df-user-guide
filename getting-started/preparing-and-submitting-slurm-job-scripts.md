@@ -18,3 +18,10 @@ Using priority flags when submitting jobs can help improve their position in the
 To request an interactive session, you can use:
 ```bash
 srun --pty bash
+
+## To submit a job script, use:
+sbatch your_script.sh
+
+Ensure your script file (your_script.sh) has the correct permissions.
+
+For more information on writing job scripts, please refer to the Slurm documentation.
