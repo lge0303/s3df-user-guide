@@ -14,3 +14,8 @@ This section provides guidance on how to log in to the S3DF using various method
    Host: s3df.slac.stanford.edu
 3. Username: Your S3DF username
 Connect and enter your password.
+
+## Log In Using OnDemand
+Navigate to the OnDemand portal at OnDemand Login.
+Enter your S3DF credentials.
+Once logged in, you can launch interactive applications.
