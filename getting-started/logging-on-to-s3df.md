@@ -18,21 +18,16 @@ If you're comfortable using a terminal, SSH is the most direct way to access S3D
 
    ssh your_username@s3dflogin.slac.stanford.edu
 
-These login nodes are bastion hosts and only give access to your home directory.
+- These login nodes are bastion hosts and only give access to your home directory.
 
-To use storage or run compute jobs, you’ll need to SSH again from the login node to an interactive compute node.
+- To use storage or run compute jobs, you’ll need to SSH again from the login node to an interactive compute node.
 
-⚠️ Windows Users:
+##⚠️ Windows Users:
 If you see an error like:
-Corrupted MAC on input or message authentication code incorrect,
+ Corrupted MAC on input or message authentication code incorrect,
 try adding this flag to your SSH command:
 
-bash
-Copy
-Edit
-ssh -m hmac-sha2-512 your_username@s3dflogin.slac.stanford.edu
-
-
+   ssh -m hmac-sha2-512 your_username@s3dflogin.slac.stanford.edu
 
 ✅ Example 2: Login via S3DF OnDemand (Web Portal)
 
