@@ -12,12 +12,14 @@ Preparing and submitting a SLURM job script
 
 Viewing two practical login examples to help you get started quickly
 
-Let’s dive in and make your first S3DF experience smooth and productive!
+
 ## Table of Contents
 - [Logging on to S3DF](logging-on-to-s3df.md)
 - [Clusters & Repos](clusters-and-repos.md)
 - [Preparing and Submitting Slurm Job Scripts](preparing-and-submitting-slurm-job-scripts.md)
 - [Examples](../examples/)
+  
+Let’s dive in and make your first S3DF experience smooth and productive!
 
 ## 1. Registration
 To access the S3DF, you need to register. Visit the [S3DF Registration Page](https://s3df.slac.stanford.edu/#/register) and fill out the required information.
