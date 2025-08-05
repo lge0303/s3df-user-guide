@@ -18,4 +18,3 @@ echo "Job completed"
 
 2. Submit the job with:
 sbatch job.sh
-
