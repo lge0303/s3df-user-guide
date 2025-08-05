@@ -1,18 +1,11 @@
-# S3DF New User Guide
-
-Welcome to the SLAC Shared Scientific Data Facility (S3DF)!
-
-This guide will help new users get started with accessing and using S3DF resources. 
 
 ## 🔑 Access Requirements
 
 Before logging into S3DF, make sure you:
 
-Have a valid SLAC Unix account
+- Have a valid SLAC Unix account
 
-Have been added to the appropriate project
-
-Have an SSH key pair (for terminal access)
+- Have been added to the appropriate project
 
 🖥️ Login to S3DF
 
