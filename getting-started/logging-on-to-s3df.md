@@ -4,7 +4,7 @@ Welcome to the SLAC Shared Scientific Data Facility (S3DF)!
 
 This guide will help new users get started with accessing and using S3DF resources. It is modeled after the NERSC beginner guide and complements the official S3DF onboarding site.
 
-🔑 Access Requirements
+# 🔑 Access Requirements
 
 Before logging into S3DF, make sure you:
 
