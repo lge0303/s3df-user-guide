@@ -16,6 +16,6 @@ This section provides guidance on how to log in to the S3DF using various method
 Connect and enter your password.
 
 ## Log In Using OnDemand
-Navigate to the OnDemand portal at OnDemand Login.
-Enter your S3DF credentials.
-Once logged in, you can launch interactive applications.
+1. Navigate to the OnDemand portal at OnDemand Login.
+2. Enter your S3DF credentials.
+3. Once logged in, you can launch interactive applications.
