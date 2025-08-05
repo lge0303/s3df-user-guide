@@ -10,9 +10,9 @@ If you're comfortable using a terminal, SSH is the most direct way to access S3D
 
 - Use any SSH client such as:
 
- - - macOS/Linux: Built-in terminal with ssh
+  - macOS/Linux: Built-in terminal with ssh
 
-- - Windows: PuTTY or Windows Terminal with OpenSSH
+ - Windows: PuTTY or Windows Terminal with OpenSSH
 
 - Connect to the S3DF login pool using this command:
 
