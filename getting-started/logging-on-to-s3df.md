@@ -1,5 +1,5 @@
 
-## 🔑 Access Requirements
+# 🔑 Access Requirements
 
 Before logging into S3DF, make sure you:
 
@@ -7,7 +7,7 @@ Before logging into S3DF, make sure you:
 
 - Have been added to the appropriate project
 
-🖥️ Login to S3DF
+# 🖥️ Login to S3DF
 
 There are three main ways to access S3DF, depending on your needs: terminal (SSH), remote desktop (NoMachine), and browser-based portal (OnDemand).
 
