@@ -1,37 +1,40 @@
 
-# 🔑 Access Requirements
+# 🔑 How to Access S3DF
 
-Before logging into S3DF, make sure you:
+S3DF supports three main access methods depending on your needs: terminal (SSH), remote desktop (NoMachine), and browser-based access (OnDemand). Below is a breakdown of each option:
 
-- Have a valid SLAC Unix account
 
-- Have been added to the appropriate project
+## 1. 🖥️ SSH (Terminal Access)
 
-# 🖥️ Login to S3DF
+If you're comfortable using a terminal, SSH is the most direct way to access S3DF.
 
-There are three main ways to access S3DF, depending on your needs: terminal (SSH), remote desktop (NoMachine), and browser-based portal (OnDemand).
+- Use any SSH client such as:
 
-✅ Example 1: Login via SSH (Terminal)
+ - - macOS/Linux: Built-in terminal with ssh
 
-Scenario: You are on your laptop (macOS, Linux, or Windows using WSL) and want to connect to S3DF via the command line.
+- - Windows: PuTTY or Windows Terminal with OpenSSH
 
+- Connect to the S3DF login pool using this command:
+
+bash
+Copy
+Edit
 ssh your_username@s3dflogin.slac.stanford.edu
+These login nodes are bastion hosts and only give access to your home directory.
 
-Replace your_username with your SLAC Unix login.
+To use storage or run compute jobs, you’ll need to SSH again from the login node to an interactive compute node.
 
-You may be asked to confirm the SSH fingerprint.
+⚠️ Windows Users:
+If you see an error like:
+Corrupted MAC on input or message authentication code incorrect,
+try adding this flag to your SSH command:
 
-After login, you'll be in your S3DF home directory: /sdf/home/your_username/
-
-File transfer:
-
-scp file.txt your_username@s3dflogin.slac.stanford.edu:/sdf/home/your_username/
-
-⚠️ Windows Users: If you encounter an error like Corrupted MAC on input or message authentication code incorrect, try:
-
+bash
+Copy
+Edit
 ssh -m hmac-sha2-512 your_username@s3dflogin.slac.stanford.edu
 
-🔄 These SSH login nodes are bastion hosts with access only to your home directory. To use compute or storage resources, you must SSH from here to an interactive compute node.
+
 
 ✅ Example 2: Login via S3DF OnDemand (Web Portal)
 
