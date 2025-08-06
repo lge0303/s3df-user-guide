@@ -68,3 +68,6 @@ OnDemand provides a browser-based interface for users who prefer not to use the 
    - Manage SLURM jobs and file browsing
 
 ### 💡 Ideal for beginners or anyone needing quick access without configuring SSH or desktop clients.
+
+   ![Login Screenshot](access.png)
+
