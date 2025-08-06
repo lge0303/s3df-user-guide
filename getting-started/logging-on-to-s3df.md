@@ -16,7 +16,7 @@ If you're comfortable using a terminal, SSH is the most direct way to access S3D
 
 - Connect to the S3DF login pool using this command:
 
-   ssh your_username@s3dflogin.slac.stanford.edu
+        ssh your_username@s3dflogin.slac.stanford.edu
 
 - These login nodes are bastion hosts and only give access to your home directory.
 
