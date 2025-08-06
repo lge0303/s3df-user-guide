@@ -24,7 +24,7 @@ If you're comfortable using a terminal, SSH is the most direct way to access S3D
 
 ## ⚠️ Windows Users:
 If you see an error like:
- Corrupted MAC on input or message authentication code incorrect,
+    Corrupted MAC on input or message authentication code incorrect,
 try adding this flag to your SSH command:
 
    ssh -m hmac-sha2-512 your_username@s3dflogin.slac.stanford.edu
