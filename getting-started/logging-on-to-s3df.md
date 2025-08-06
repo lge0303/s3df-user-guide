@@ -31,11 +31,17 @@ try adding this flag to your SSH command:
 
     ssh -m hmac-sha2-512 your_username@s3dflogin.slac.stanford.edu
 
-✅ Example 2: Login via S3DF OnDemand (Web Portal)
+## 2. 🖼️ NoMachine (Remote Desktop Access)
 
-Scenario: You want to access S3DF through your browser (no command line required).
+NoMachine offers a graphical desktop environment that works well even on slower internet connections. It’s especially useful for applications that require graphical interfaces (e.g., X11-based tools).
 
-Open this link in your browser:
+  - Benefits:
+
+     - Better performance for remote graphics
+
+     - Preserves session state if your connection drops
+   
+  - Connect to:
 
 https://s3df.slac.stanford.edu
 
