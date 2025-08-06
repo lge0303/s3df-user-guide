@@ -64,8 +64,8 @@ Write a script file (e.g., script.sh) with Slurm commands and the job commands y
 
     <commands here>
 
-    - Replace <commands here> with the specific commands for your job.
-    - The script will log output and error messages to output-%j.txt, where %j is replaced by the job ID.
+- Replace <commands here> with the specific commands for your job.
+- The script will log output and error messages to output-%j.txt, where %j is replaced by the job ID.
 
 #### 2. Submit the Job:
 Use the sbatch command to submit your batch script:
