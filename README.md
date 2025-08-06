@@ -9,6 +9,8 @@ Welcome to the S3DF SLAC Shared Science Data Facility User Guide! This repositor
   - [Clusters & Repos](getting-started/clusters-and-repos.md)
   - [Running Jobs](getting-started/preparing-and-submitting-slurm-job-scripts.md)
 - [Examples](examples/)
+  - [terminal](examples/terminal.md)
+  - [ondemand](examples/ondemand.md)
 
 ## Contact
 For additional questions, please reach out to the S3DF support team at [S3DF Support Email](mailto:support@example.com).
