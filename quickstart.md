@@ -11,7 +11,7 @@ This guide provides a clear step-by-step workflow for using the S3DF (Spectral 3
 - Use SSH or NoMachine to connect to a login node. This is your initial access point to the system
 - Example command for SSH:
 
-    ssh username@login-node-address
+        ssh username@login-node-address
 
 ### 2. Connect to a Pool Node
 
