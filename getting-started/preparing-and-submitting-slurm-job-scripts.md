@@ -70,17 +70,17 @@ Write a script file (e.g., script.sh) with Slurm commands and the job commands y
 #### 2. Submit the Job:
 Use the sbatch command to submit your batch script:
 
-  sbatch script.sh
+    sbatch script.sh
 
 #### 3. Monitor Your Job:
 Check the status of your job using:
 
-  scontrol show job <job_id>
+    scontrol show job <job_id>
 
 ### Submitting Jobs Without a Batch Script
 Alternatively, you can submit jobs directly from the command line using the --wrap option:
 
-  sbatch --wrap="your_command_here"
+    sbatch --wrap="your_command_here"
 
 ### Specifying Job Duration
 It is crucial to set a meaningful duration for your job, allowing the Slurm scheduler to prioritize jobs effectively. Use the --time option with formats such as:
