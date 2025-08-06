@@ -49,5 +49,3 @@ The compute nodes are partitioned into three distinct clusters:
 This structure of clusters and node types ensures that S3DF can meet a wide range of computational demands efficiently. Please refer to additional documentation for specific usage guidelines and best practices for optimizing performance in your computational tasks.
 
 
-
-   ![Clusters](Clusters.png)
