@@ -22,7 +22,7 @@ If you're comfortable using a terminal, SSH is the most direct way to access S3D
 
 - To use storage or run compute jobs, you’ll need to SSH again from the login node to an interactive compute node.
 
-##⚠️ Windows Users:
+## ⚠️ Windows Users:
 If you see an error like:
  Corrupted MAC on input or message authentication code incorrect,
 try adding this flag to your SSH command:
