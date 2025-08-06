@@ -52,7 +52,7 @@ Write a script file (e.g., script.sh) with Slurm commands and the job commands y
 
     #!/bin/bash
   
-  #SBATCH --partition=milano
+    #SBATCH --partition=milano
   #SBATCH --job-name=test
   #SBATCH --output=output-%j.txt
   #SBATCH --error=output-%j.txt
