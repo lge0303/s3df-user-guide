@@ -17,6 +17,8 @@ The S3DF environment consists of several compute clusters designed to support a 
 - Compute/Batch Nodes
 
   - Purpose: Dedicated to running High-Performance Computing (HPC) jobs utilizing either CPUs or GPUs.
+ 
+     ![Node types](nodetype.png)
 
 ## Compute Node Clusters
 The compute nodes are partitioned into three distinct clusters:
