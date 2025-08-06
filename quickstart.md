@@ -34,13 +34,13 @@ This guide provides a clear step-by-step workflow for using the S3DF (Spectral 3
 - Use the sbatch command to submit your jobs to a compute node for execution.
 - Example command:
 
-    sbatch your-job-script.sbatch
+            sbatch your-job-script.sbatch
 
 ### 6. Check Status of Running Jobs (Optional)
 
 - To monitor the status of your submitted jobs, use the following command:
   
-    squeue -u username
+            squeue -u username
 
 ### 7. View Data Output
 
