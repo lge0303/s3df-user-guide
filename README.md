@@ -4,9 +4,9 @@ Welcome to the S3DF SLAC Shared Science Data Facility User Guide! This repositor
 
 ## Table of Contents
 - [Getting Started](getting-started/index.md)
-- [Logging on to S3DF](getting-started/logging-on-to-s3df.md)
-- [Clusters & Repos](getting-started/clusters-and-repos.md)
-- [Preparing and Submitting Slurm Job Scripts](getting-started/preparing-and-submitting-slurm-job-scripts.md)
+  - [Logging on to S3DF](getting-started/logging-on-to-s3df.md)
+  - [Clusters & Repos](getting-started/clusters-and-repos.md)
+  - [Preparing and Submitting Slurm Job Scripts](getting-started/preparing-and-submitting-slurm-job-scripts.md)
 - [Examples](examples/)
 
 ## Contact
