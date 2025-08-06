@@ -43,6 +43,12 @@ NoMachine offers a graphical desktop environment that works well even on slower 
    
   - Connect to:
 
+       s3dfnx.slac.stanford.edu
+
+ - Download and install the NoMachine client for your system.
+
+ - For detailed instructions, refer to the NoMachine access guide ().
+
 https://s3df.slac.stanford.edu
 
 Click "Login" in the upper right.
