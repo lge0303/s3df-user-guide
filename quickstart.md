@@ -1,6 +1,6 @@
 # S3DF General Workflow Guide
 
-This guide provides a clear step-by-step workflow for using the S3DF (Spectral 3D Finite Difference) system. Follow these instructions to efficiently connect to the S3DF environment and run your desired software.
+This guide provides a clear step-by-step workflow for using the S3DF system. Follow these instructions to efficiently connect to the S3DF environment and run your desired software.
 
 # Step-by-Step Workflow
 
