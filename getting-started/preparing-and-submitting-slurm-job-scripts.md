@@ -53,16 +53,16 @@ Write a script file (e.g., script.sh) with Slurm commands and the job commands y
     #!/bin/bash
   
     #SBATCH --partition=milano
-  #SBATCH --job-name=test
-  #SBATCH --output=output-%j.txt
-  #SBATCH --error=output-%j.txt
-  #SBATCH --ntasks=1
-  #SBATCH --cpus-per-task=12
-  #SBATCH --mem-per-cpu=1g
-  #SBATCH --time=0-00:10:00
-  #SBATCH --gpus 1
+    #SBATCH --job-name=test
+    #SBATCH --output=output-%j.txt
+    #SBATCH --error=output-%j.txt
+    #SBATCH --ntasks=1
+    #SBATCH --cpus-per-task=12
+    #SBATCH --mem-per-cpu=1g
+    #SBATCH --time=0-00:10:00
+    #SBATCH --gpus 1
 
-  <commands here>
+    <commands here>
 
     - Replace <commands here> with the specific commands for your job.
     - The script will log output and error messages to output-%j.txt, where %j is replaced by the job ID.
