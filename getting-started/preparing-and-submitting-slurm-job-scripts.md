@@ -43,14 +43,14 @@ Batch jobs in S3DF are managed through Slurm, a batch scheduler that allows user
  - Slurm Partition: A logical grouping of batch nodes with similar specifications (e.g., CPU types). Example partitions include roma and milano.
  - Resource Monitoring: Use the following command to check the status of nodes:
 
-  sinfo --Node --format="%10N %.6D %10P %10T %20E %.4c %.8z %8O %.6m %10e %.6w %.60f"
+    sinfo --Node --format="%10N %.6D %10P %10T %20E %.4c %.8z %8O %.6m %10e %.6w %.60f"
 
 ### Submitting a Batch Job
 
 #### 1. Create a Batch Script:
 Write a script file (e.g., script.sh) with Slurm commands and the job commands you want to execute:
 
-  #!/bin/bash
+    #!/bin/bash
   
   #SBATCH --partition=milano
   #SBATCH --job-name=test
