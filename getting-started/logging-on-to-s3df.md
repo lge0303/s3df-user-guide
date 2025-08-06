@@ -49,73 +49,22 @@ NoMachine offers a graphical desktop environment that works well even on slower 
 
  - For detailed instructions, refer to the NoMachine access guide ().
 
-https://s3df.slac.stanford.edu
+## 3. 🌐 OnDemand (Web Portal Access)
 
-Click "Login" in the upper right.
+OnDemand provides a browser-based interface for users who prefer not to use the terminal.
 
-Enter your SLAC credentials.
+- Access it here:
 
-After login, you can:
+    👉 https://s3df.slac.stanford.edu/ondemand
 
-Launch a Shell Terminal
+- Features available after login:
 
-Start a Jupyter Notebook
+   - Launch a web-based terminal
 
-Open a Remote Desktop
+   - Start Jupyter notebooks
 
-View and manage jobs, storage, and more
+   - Access remote desktops
 
-💡 The OnDemand portal is beginner-friendly and does not require software installation.
+   - Manage SLURM jobs and file browsing
 
-✅ Optional: Use NoMachine (Graphical Remote Desktop)
-
-Scenario: You want a persistent graphical desktop session.
-
-Download and install the NoMachine client for your platform.
-
-Connect to:
-
-s3dfnx.slac.stanford.edu
-
-Benefits:
-
-Better performance for graphical/X11 apps over slow networks
-
-Sessions persist across disconnections
-
-See the NoMachine section of the official S3DF site for more setup details.
-
-Next Steps
-
-Learn about storage locations
-
-Submit your first Slurm job
-
-Explore available modules and environments
-
-For more details, visit the official S3DF site.
-
-This guide is maintained on GitHub — contributions welcome!
-
-
-# Logging on to S3DF
-
-This section provides guidance on how to log in to the S3DF using various methods:
-
-## Log In Using a Terminal
-1. Open your terminal application.
-2. Use SSH to log in:
-   ssh username@s3df.slac.stanford.edu
-3. Enter your password when prompted
- 
-## Log In Using NoMachine
-1. Open NoMachine on your computer.
-2. Enter the connection details:
-   Host: s3df.slac.stanford.edu
-3. Username: Your S3DF username
-Connect and enter your password.
-
-## Log In Using OnDemand
-1. Navigate to the OnDemand portal at OnDemand Login.
-2. Enter your S3DF credentials.
-3. Once logged in, you can launch interactive applications.
+### 💡 Ideal for beginners or anyone needing quick access without configuring SSH or desktop clients.
